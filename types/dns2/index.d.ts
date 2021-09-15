@@ -14,9 +14,9 @@ declare module "dns2" {
     namespace Packet {
         enum TYPE {
             A = 0x01,
-             NS = 0x02,
-             MD = 0x03,
-             MF = 0x04,
+            NS = 0x02,
+            MD = 0x03,
+            MF = 0x04,
             CNAME = 0x05,
             SOA = 0x06,
             MB = 0x07,
